@@ -1,0 +1,56 @@
+menu,
+* {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: blue;
+}
+
+
+
+main {
+    background-color: yellow;
+}
+
+table {
+    width: 100%;
+    border-top: 20px cap;
+}
+
+li {
+    justify-content: center;
+}
+
+a {
+    color: rgb(0, 33, 142);
+}
+
+
+inicio,
+*,
+body,
+ul,
+
+h1 {
+     background-color: rgb(168, 201, 2);
+    color: rgb(20, 22, 23);
+ }
+
+ul {
+ color: whitesmoke;
+}
+
+p {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+
+Sobre,
+body,
+h1 {
+    background-color: blue;
+}        
