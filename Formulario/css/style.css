@@ -13,6 +13,7 @@ body {
 }
 
 form {
+    margin: auto;
     max-width: 400px;
     background-color: white;
     /*cor de fundo do formulario*/
@@ -59,7 +60,7 @@ input {
 
 button {
     width: 40%;
-    /*tasmanho do botao 40%*/
+    /*tamanho do botao 40%*/
     padding: 10px;
     /*espacamento dentro do botao*/
     border-radius: 50px;

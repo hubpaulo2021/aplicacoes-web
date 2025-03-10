@@ -47,7 +47,6 @@ header nav ul li a {
 }
 a:hover { /*comando para alterar os botões de  ações*/
     background-color: yellow; 
-    color: black;
     border-radius: 50px; /*para redondar as bordas */
 }
 section{
@@ -55,6 +54,10 @@ section{
     text-align: center;
     font-family: 0%;
     font-size: 15px;
+}
+
+section:hover {
+color: crimsong;
 }
 #home{
     background-color: bisque;
