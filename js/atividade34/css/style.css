@@ -1,0 +1,19 @@
+body{
+    background-color: yellowgreen;
+    color: blue;
+}
+form{
+    background-color: black;
+    color: aquamarine;
+
+}
+button{
+    background-color: aqua;
+    border-radius: 18px;
+    color:white;
+    border-color: blue;
+    font-size: 20%;
+}
+input{
+    background-color: blue;
+}
