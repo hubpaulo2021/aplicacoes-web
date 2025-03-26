@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: darkslateblue;
+    color: black;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input {
+    background-color:darkblue;
+    color:white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border-color:white;
+}
+button{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: green;
+    border-color: white;
+}

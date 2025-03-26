@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: red;
+}
+p{
+    background-color: aqua;
+    padding: 20px;
+}
+a{
+    font-size: 30px;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
