@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(17, 199, 223);
+    transition: .50s;
+    opacity: .50s;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+P {
+    font-size: 28px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: gray;
+        text-align: justify;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+}
+
+#button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 30px;
+    width: 200px;
+}
+
+button[type="reset"] {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 30px;
+    width: 200px;
+}
+
+button:hover {
+
+    background-color: yellow;
+    transition: .50s;
+    color: black;
+
+
+}

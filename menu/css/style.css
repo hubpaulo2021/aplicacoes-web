@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*espaçamento interno do site*/
+}
+
+body {
+    background-color: blueviolet;
+    /*esse é o corpo da pagina*/
+}
+
+header {
+    background-color: aqua;
+    /*mundando a cor do menu do meu site*/
+    padding: 10px 20px;
+    /*espaçamento interno a esquerda do meu site*/
+}
+
+header img {
+    width: 100px;
+    /*alteranto a largura da minha imagem*/
+    height: auto;
+    /*deixando a altura da imagem automatica*/
+}
+
+nav ul {
+    display: flex;
+    /*ele tira de coluna e passa para linha na horizontal*/
+    justify-content: center;
+    list-style: none;
+    /*para retira os marcadores das palavras não ordenadas*/
+}
+
+header nav ul li {
+    margin: 15px;
+    /*espaçamento o menu um do outro*/
+}
+
+header nav ul li a {
+    color: white;
+    /*altera o tipo  de cor do menu*/
+    text-decoration: none;
+    /*tira o sublinhado das palavras */
+    font-weight: bold;
+    /*para deixa a paravra em negrito*/
+    padding: 5px 10px;
+}
+a:hover { /*comando para alterar os botões de  ações*/
+    background-color: yellow; 
+    border-radius: 50px; /*para redondar as bordas */
+}
+section{
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 0%;
+    font-size: 15px;
+}
+
+section:hover {
+color: crimsong;
+}
+#home{
+    background-color: bisque;
+    :hover{
+    color: brown;
+}
+}
+#sobre{
+    background-color: blue;
+}
+#serviço{
+    background-color: azure;
+}
+#contato{
+    background-color: chartreuse;
+}

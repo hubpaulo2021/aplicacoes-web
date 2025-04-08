@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    /*espaçamento da margem externa*/
+    padding: 0;
+    /* espaçamento da margem interna*/
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: blue;
+
+}
+
+form {
+    margin: auto;
+    max-width: 400px;
+    background-color: white;
+    /*cor de fundo do formulario*/
+    padding: 80px;
+    /*espcamenmto dentro do fomrulario*/
+    border-radius: 10px;
+    /*borda do formulario*/
+}
+
+h1 {
+    text-align: center;
+    /*centralizar o titulo do formulario*/
+    margin-bottom: 20px;
+    /*espaçamento entre o titulo do formulario*/
+}
+
+label {
+    display: block;
+    /*colocar todo formulario um embaixo do outro*/
+    margin-bottom: 8px;
+    /*espaçamentos entre linhas*/
+    font-weight: bold;
+    /*colocar a letra em negrito*/
+}
+
+input {
+    width: 100%;
+    /*largura do input*/
+    padding: 10px;
+    /*espacamento do input*/
+    border-radius: 20px;
+    /*arrerndodar borda do input*/
+    border: 1px solid blue;
+    /*mudar a cor da borda da tabela */
+    color: blue;
+    /*cor da letra do input*/
+    font-size: 20px;
+    /*tamanho da letra do input*/
+    font-weight: bold;
+    /*colocar a letra do input em negrito*/
+    margin-bottom: 10px;
+    /*espaçamento entre as linhas*/
+}
+
+button {
+    width: 40%;
+    /*tamanho do botao 40%*/
+    padding: 10px;
+    /*espacamento dentro do botao*/
+    border-radius: 50px;
+    /*arredondamento das bordas do botao*/
+    font-size: 16px;
+    /*tamanho da fonte do botao*/
+    font-weight: bold;
+    /*letra em negrito do botao*/
+    cursor: pointer;
+    /*alteração do curso do mouse*/
+}
+
+button:hover {
+    background-color: blue;
+    /*alterar as cores dos botoes*/
+}
+
+button[type="reset"] {
+    background-color: wheat;
+    color: blue;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+}
+
+#button-principal {
+    width: 100%;
+    /*largura da div 100%*/
+    display: flex;
+    /*alterei munha div de block*/
+    justify-content: center;
+    /*Centralizei tudo dentro da div*/
+    padding: 10px;
+    /*espacamento dentro da div*/
+    gap: 15px;
+    /*para dar espacamento entre os botoes*/
+}

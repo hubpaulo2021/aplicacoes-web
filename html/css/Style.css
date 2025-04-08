@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial
+}
+
+header {
+    background-color: #8B4513;
+    text-align: center;
+    padding: 20px;
+}
+
+p,
+ul,
+ol {
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    background-color: #8B4513;
+    color: white;
+    padding: 12px;
+}
+
+main {
+    height: 570px;
+    text-align: center;
+}
